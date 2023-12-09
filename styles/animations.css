@@ -12,3 +12,56 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes shift {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes like {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+
+}
+
+@keyframes like-scale {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+  }
+
+}
+
+@media  (max-width: 500px) {
+  .card__list {
+    gap: 50px;
+  }
+
+  .save-button {
+    flex-direction: column;
+  }
+
+  .save-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+}
+
+
