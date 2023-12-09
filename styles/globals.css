@@ -20,6 +20,12 @@ body {
   background-color: var(--bg-items);
 }
 
+@supports (font-variation-settings: "wght" var(--font-weight-normal)) {
+  body {
+      font-family: 'Inter-Variable', sans-serif;
+  }
+}
+
 h1,
 h2,
 h3,

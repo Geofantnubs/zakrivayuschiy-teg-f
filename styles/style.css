@@ -134,6 +134,12 @@
   font-size: inherit;
 }
 
+@supports (font-variation-settings: "wght" var(--font-weight-bold)) {
+  .card__item-title {
+      font-family: 'Inter-Variable', sans-serif;
+  }
+}
+
 .card__image {
   position: relative;
   z-index: 0;
