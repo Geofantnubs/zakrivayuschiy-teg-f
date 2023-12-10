@@ -1,39 +1,39 @@
-.image-1 {
+.filter-blur {
   filter: blur(5px) contrast(250%);
   transition: filter 1s ease;
 }
 
-.image-2 {
+.filter-brightness {
   filter: brightness(0.4);
   transition: filter 1s ease;
 }
 
-.image-3 {
+.filter-grayscale {
   filter: grayscale(100%);
   transition: filter 1s ease;
 }
 
-.image-4 {
+.filter-rotate {
   filter: hue-rotate(90deg);
   transition: filter 1s ease;
 }
 
-.image-5 {
+.filter-contrast {
   filter: contrast(200%);
   transition: filter 1s ease;
 }
 
-.image-6 {
+.filter-invert {
   filter: invert(75%);
   transition: filter 1s ease;
 }
 
-.image-7 {
+.filter-mix {
   filter: contrast(175%) brightness(30%) saturate(70%);
   transition: filter 1s ease;
 }
 
-.image-8 {
+.filter-sepia {
   filter: sepia(80%);
   transition: filter 1s ease;
 }
@@ -42,4 +42,5 @@
   filter: none;
   transition: filter 1s ease;
 }
+
 

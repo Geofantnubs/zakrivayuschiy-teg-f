@@ -12,18 +12,11 @@
 body {
   margin: 0;
   font-family: var(--font-global, sans-serif);
-  font-weight: var(--font-weight-normal);
   font-size: 18px;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   padding-block: 102px 105px;
   background-color: var(--bg-items);
-}
-
-@supports (font-variation-settings: "wght" var(--font-weight-normal)) {
-  body {
-      font-family: 'Inter-Variable', sans-serif;
-  }
 }
 
 h1,

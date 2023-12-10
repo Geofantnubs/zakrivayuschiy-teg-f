@@ -27,12 +27,8 @@
     opacity: 0;
   }
 
-  50% {
-    opacity: 1;
-  }
-
   to {
-    opacity: 0;
+    opacity: 1;
   }
 
 }
@@ -48,20 +44,5 @@
 
 }
 
-@media  (max-width: 500px) {
-  .card__list {
-    gap: 50px;
-  }
-
-  .save-button {
-    flex-direction: column;
-  }
-
-  .save-icon {
-    width: 28px;
-    height: 28px;
-  }
-
-}
 
 
